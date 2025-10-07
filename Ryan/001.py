@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ano_nasc = int(input("Digite o ano do seu nascimento: "))
 
 ano_atual = 2025
@@ -10,6 +11,8 @@ if idade >= 18:
 else:
     print("Menor de idade")
 =======
+=======
+>>>>>>> Stashed changes
 ano_nascimento = int(input("Digite o ano em que você nasceu: "))
 ano_nascimento = int(input("digite o ano em que voce nasceu:"))
 ano_nascimento = int(input("digite o ano em que voce nasceu:"))
@@ -20,5 +23,9 @@ if idade == 18:
 elif idade > 18:
     print("Você já fez 18 anos.")
 else:
+<<<<<<< Updated upstream
+    print("Você ainda não fez 18 anos.")
+>>>>>>> Stashed changes
+=======
     print("Você ainda não fez 18 anos.")
 >>>>>>> Stashed changes
