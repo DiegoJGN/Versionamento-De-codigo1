@@ -8,4 +8,4 @@ else:
     print ("o menor valor é:", Segundo)
 
 if Primeiro == Segundo:
-    print("Os dois valores são iguais.")
+    print("O maior número é:", Segundo)
