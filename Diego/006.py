@@ -1,3 +1,3 @@
 mensagem = input("Escreva alguma coisa: ")
-uppercase_mensagem = mensagem.upper()
-print(uppercase_mensagem)
+maiusculo_mensagem = mensagem.upper()
+print(maiusculo_mensagem)
