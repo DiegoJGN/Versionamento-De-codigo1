@@ -1,3 +1,5 @@
 mensagem = input("Escreva alguma coisa: ")
-maiusculo_mensagem = mensagem.upper()
-print(maiusculo_mensagem)
+up_mensagem = mensagem.upper()
+low_mensagem = mensagem.lower()
+print(low_mensagem)
+print(up_mensagem)
