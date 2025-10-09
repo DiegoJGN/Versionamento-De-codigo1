@@ -1,3 +1,3 @@
-mensagem = input("Digite uma mensagem: ")
-mensagem_maiuscula = mensagem.upper()
-print("Mensagem em maiúsculas:", mensagem_maiuscula)
+mensagem = input("Digite uma mensagem qualquer: ")
+print("Mensagem em Maiúscula:", mensagem.upper())
+print("Mensagem em Minúsculas:", mensagem.lower())
