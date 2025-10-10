@@ -1,0 +1,5 @@
+mensagem = input("Escreva alguma coisa: ")
+up_mensagem = mensagem.upper()
+low_mensagem = mensagem.lower()
+print(low_mensagem)
+print(up_mensagem)
