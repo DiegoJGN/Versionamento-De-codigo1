@@ -1,16 +1,17 @@
-print("⬐Lista das cidades adicionadas⬎")
-lista_cidades = []
-
-print("Escreva os nomes das cidades que você deseja adicionar.")
-print("Quando você acabar com a sua lista ou não tem mais o que fazer, digite 'final'.")
+for i in range(3):
+    nome = input(f"Digite o nome da {i+1}ª cidade: ")
+    cidades.append(nome) 
+    print("Lista atualizada de cidades:", cidades)  
 
 while True:
-    cidade = input("Digite o nome de uma cidade: ")
-    if cidade.lower() == 'final' or cidade == '':
+    nome = input("Digite o nome de uma cidade (ou 'sair' para encerrar): ")
+    
+    if nome.lower() == 'sair':
+        print("Programa encerrado.")
         break
-    lista_cidades.append(cidade)
 
-print(lista_cidades)
-print("\nLista das cidades adicionadas:")
-for cidade in lista_cidades:
-    print(f" ⮕ {cidade}")
+    cidades.append(nome)
+    
+    print("Lista de cidades atualizada:")
+    for cidade in cidades:
+        print("-", cidade)
